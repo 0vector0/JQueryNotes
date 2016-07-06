@@ -1,5 +1,10 @@
 $(document).ready(function () {
 
+     $('#addNoteForm').submit(function(event) {
+      return false;
+  });
+    
+    
 //    var id = 0;
 
     var localStorageLength = localStorage.length;
@@ -19,10 +24,6 @@ $(document).ready(function () {
     }
 
 
-
-//    $('#max').click(function () {
-//        maxId();
-//    });
 
     $('#htmlSet').click(function () {
 

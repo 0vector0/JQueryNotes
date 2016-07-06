@@ -1,5 +1,51 @@
 .note {
-    background: #a59b90;
-    width: 200px;
-    margin: 2px;
+    background: #ebff7c;
+    width: 300px;
+    margin: 5px;
+    float: left;
+    
 }
+
+.note H3 {
+    text-align: center;
+}
+
+.note p {
+    text-align: inherit;
+}
+
+#inputForm {
+    background: #74ff79;
+}
+
+#title{
+    width: 300px;
+}
+#description {
+    height: 100px;
+    width: 300px;
+}
+
+#target {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+.clearFloat {
+    clear: left;
+}
+
+.center {
+    width: 100%;
+    margin: auto;
+    padding: 2px;
+    text-align: center;
+}
+
+.removeDiv {
+    background: #ff4d4d;
+}
+
+
+/*rows="5" cols="25" */

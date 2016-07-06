@@ -8,16 +8,31 @@
 </head>
 
 <body>
-    <form id="addNoteForm">
-        <input type="text" id="title" placeholder="title">
-        </br>
-        <input type="text" id="description" placeholder="description">
-        </br>
-    </form>
-    <button id="htmlSet">Добавить</button>
-    <button id="removeAll">Очистить</button>
-<!--    <button id="max">max</button>-->
-    <div id="target">
+   <div class="center">
+       <H1>JQueryNotes</H1>
+   </div>
+    <div id="inputForm" class="center">
+        <form id="addNoteForm">
+            <p>
+                <input type="text" id="title" placeholder="title" title="Enter the note title">
+            </p>
+            <p>
+                <textarea id="description" placeholder="description" title="Enter the note description"></textarea>
+            </p>
+            <p>
+                <input type="submit" id="htmlSet" value="Add note">
+                <input type="reset" value="Reset">
+            </p>
+        </form>
+
+    </div>
+
+    <div id="target"></div>
+
+    <div class="clearFloat"></div>
+    
+    <div class="center removeDiv">
+        <button id="removeAll">Remove all notes</button>
     </div>
 
     <script type="text/javascript" src="lib/jquery-3.0.0.js"></script>
