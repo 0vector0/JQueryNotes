@@ -1,9 +1,15 @@
+body {
+    background: #fff5a9;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
 .note {
-    background: #ebff7c;
+    background: #f8ff44;
     width: 300px;
-    margin: 5px;
+    margin: 10px;
     float: left;
-    
+    padding: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .note H3 {
@@ -11,19 +17,23 @@
 }
 
 .note p {
+    margin: 0 10px;
     text-align: inherit;
 }
 
-#inputForm {
-    background: #74ff79;
+#inputForm p {
+    margin: 2px;
 }
 
-#title{
+#title {
+    font-size: 16px;
     width: 300px;
 }
+
 #description {
     height: 100px;
     width: 300px;
+    font-size: 16px;
 }
 
 #target {
@@ -44,8 +54,32 @@
 }
 
 .removeDiv {
-    background: #ff4d4d;
+    margin-top: 10px;
 }
 
+#removeAll,
+input[type="reset"] {
+    margin: 0 10px;
+    background-color: #c10707;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-/*rows="5" cols="25" */
+input[type="submit"] {
+    margin: 0 10px;
+    background-color: #07c132;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
